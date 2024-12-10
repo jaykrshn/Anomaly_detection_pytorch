@@ -114,7 +114,7 @@ python ae_tuning.py --dataset_root #path to dataset root#
 
 ## Acknowledgements  
 
-This project builds on concepts and code adapted from [CNN-VAE by Luke Ditria](https://github.com/LukeDitria/CNN-VAE). Modifications include:  
+This project builds on concepts and code adapted from [CNN-VAE by Luke Ditria](https://github.com/LukeDitria/CNN-VAE). 
 Refer the repo for more details
 ---
 
