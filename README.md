@@ -1,5 +1,3 @@
-Here’s an updated version of your README file with the CUDA and PyTorch instructions included:
-
 ---
 
 # ResNet-Style VAE with Adjustable Perceptual Loss  
