@@ -5,7 +5,7 @@ import torchvision.transforms as transforms # type: ignore
 import torch.nn.functional as F
 import torchvision.utils as vutils # type: ignore
 import logging
-import pytorch_ssim
+from pytorch_ssim import pytorch_ssim
 import mlflow
 
 import os
@@ -28,7 +28,7 @@ parser.add_argument("--norm_type", "-nt",
                     help="Type of normalisation layer used, BatchNorm (bn) or GroupNorm (gn)", type=str, default="bn")
 
 # int args
-parser.add_argument("--nepoch", help="Number of training epochs", type=int, default=20)
+parser.add_argument("--nepoch", help="Number of training epochs", type=int, default=100)
 parser.add_argument("--batch_size", "-bs", help="Training batch size", type=int, default=32)
 parser.add_argument("--image_size", '-ims', help="Input image size", type=int, default=128)
 parser.add_argument("--ch_multi", '-w', help="Channel width multiplier", type=int, default=16)
