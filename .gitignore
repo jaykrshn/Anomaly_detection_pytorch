@@ -7,6 +7,9 @@ RES_VAE_64_old.py
 RES_VAE_Dynamic.py
 VAE.ipynb 
 LICENSE.txt
+mlartifacts
+mlruns
+mlflow.db
 
 .vscode
 
